@@ -1,0 +1,14 @@
+# Python virtual environment & cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data & outputs (strict git hygiene: code, docs, and config only)
+data/
+datasets/
+outputs/
+*.csv
+*.xlsx
+*.rds
+*.RData
